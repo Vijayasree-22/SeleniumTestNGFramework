@@ -1,0 +1,254 @@
+<html>
+<head>
+<title>TestNG:  Functional test execution</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional test execution</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 09 23:05:19 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>136 seconds (136201 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.TransferTest.Verify_ScheduledTransferFlow()'><b>Verify_ScheduledTransferFlow</b><br>Test class: tests.TransferTest</td>
+<td><div><pre>java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: MinuteOfHour
+	at java.base/java.time.LocalDate.get0(LocalDate.java:698)
+	at java.base/java.time.LocalDate.getLong(LocalDate.java:678)
+	at java.base/java.time.format.DateTimePrintContext.getValue(DateTimePrintContext.java:308)
+	at java.base/java.time.format.DateTimeFormatterBuilder$NumberPrinterParser.format(DateTimeFormatterBuilder.java:2914)
+	at java.base/java.time.format.DateTimeFormatterBuilder$CompositePrinterParser.format(DateTimeFormatterBuilder.java:2529)
+	at java.base/java.time.format.DateTimeFormatter.formatTo(DateTimeFormatter.java:1905)
+	at java.base/java.time.format.DateTimeFormatter.format(DateTimeFormatter.java:1879)
+	at java.base/java.time.LocalDate.format(LocalDate.java:1797)
+	at pages.Transfer.enterPastdate_InSchedule(Transfer.java:161)
+	at tests.TransferTest.Verify_ScheduledTransferFlow(TransferTest.java:139)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2146861130", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2146861130'><pre>java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: MinuteOfHour
+	at java.base/java.time.LocalDate.get0(LocalDate.java:698)
+	at java.base/java.time.LocalDate.getLong(LocalDate.java:678)
+	at java.base/java.time.format.DateTimePrintContext.getValue(DateTimePrintContext.java:308)
+	at java.base/java.time.format.DateTimeFormatterBuilder$NumberPrinterParser.format(DateTimeFormatterBuilder.java:2914)
+	at java.base/java.time.format.DateTimeFormatterBuilder$CompositePrinterParser.format(DateTimeFormatterBuilder.java:2529)
+	at java.base/java.time.format.DateTimeFormatter.formatTo(DateTimeFormatter.java:1905)
+	at java.base/java.time.format.DateTimeFormatter.format(DateTimeFormatter.java:1879)
+	at java.base/java.time.LocalDate.format(LocalDate.java:1797)
+	at pages.Transfer.enterPastdate_InSchedule(Transfer.java:161)
+	at tests.TransferTest.Verify_ScheduledTransferFlow(TransferTest.java:139)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>8</td>
+<td>tests.TransferTest@44c03695</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.AccountTest.VerifyAccountsListLoad()'><b>VerifyAccountsListLoad</b><br>Test class: tests.AccountTest</td>
+<td></td>
+<td>3</td>
+<td>tests.AccountTest@515c6049</td></tr>
+<tr>
+<td title='tests.TransferTest.Verify_FromToaccounts_Tranferform()'><b>Verify_FromToaccounts_Tranferform</b><br>Test class: tests.TransferTest</td>
+<td></td>
+<td>8</td>
+<td>tests.TransferTest@44c03695</td></tr>
+<tr>
+<td title='tests.QAplaygroundLogin_test.Loginfunctionality()'><b>Loginfunctionality</b><br>Test class: tests.QAplaygroundLogin_test<br>Parameters: wronguser, wrong123, false</td>
+<td></td>
+<td>2</td>
+<td>tests.QAplaygroundLogin_test@1573f9fc</td></tr>
+<tr>
+<td title='tests.TransferTest.Verify_InternalTransferForm_Load()'><b>Verify_InternalTransferForm_Load</b><br>Test class: tests.TransferTest</td>
+<td></td>
+<td>3</td>
+<td>tests.TransferTest@44c03695</td></tr>
+<tr>
+<td title='tests.TransferTest.Verify_TransferBalancesUpdate()'><b>Verify_TransferBalancesUpdate</b><br>Test class: tests.TransferTest</td>
+<td></td>
+<td>6</td>
+<td>tests.TransferTest@44c03695</td></tr>
+<tr>
+<td title='tests.QAplaygroundLogin_test.testQAplaygroundLogin()'><b>testQAplaygroundLogin</b><br>Test class: tests.QAplaygroundLogin_test</td>
+<td></td>
+<td>1</td>
+<td>tests.QAplaygroundLogin_test@1573f9fc</td></tr>
+<tr>
+<td title='tests.sendMoneyTest.addNewPayee_Verify_inPayeeOptions()'><b>addNewPayee_Verify_inPayeeOptions</b><br>Test class: tests.sendMoneyTest</td>
+<td></td>
+<td>4</td>
+<td>tests.sendMoneyTest@6150c3ec</td></tr>
+<tr>
+<td title='tests.TransferTest.Verify_SuccessfulInternalTransfer()'><b>Verify_SuccessfulInternalTransfer</b><br>Test class: tests.TransferTest</td>
+<td></td>
+<td>6</td>
+<td>tests.TransferTest@44c03695</td></tr>
+<tr>
+<td title='tests.QAplaygroundLogin_test.Loginfunctionality()'><b>Loginfunctionality</b><br>Test class: tests.QAplaygroundLogin_test<br>Parameters: standard_user, bank_sauce, true</td>
+<td></td>
+<td>3</td>
+<td>tests.QAplaygroundLogin_test@1573f9fc</td></tr>
+<tr>
+<td title='tests.TransferTest.Verify_InsufficientFundsValidation()'><b>Verify_InsufficientFundsValidation</b><br>Test class: tests.TransferTest</td>
+<td></td>
+<td>6</td>
+<td>tests.TransferTest@44c03695</td></tr>
+<tr>
+<td title='tests.AccountTest.AddAccountDetails()'><b>AddAccountDetails</b><br>Test class: tests.AccountTest</td>
+<td></td>
+<td>4</td>
+<td>tests.AccountTest@515c6049</td></tr>
+<tr>
+<td title='tests.DashboardTest.Verify_Total_Balance()'><b>Verify_Total_Balance</b><br>Test class: tests.DashboardTest<br>Test method: Verify dashboard total balance matches the sum of account balances.</td>
+<td></td>
+<td>3</td>
+<td>tests.DashboardTest@5542c4ed</td></tr>
+<tr>
+<td title='tests.QAplaygroundLogin_test.Loginfunctionality()'><b>Loginfunctionality</b><br>Test class: tests.QAplaygroundLogin_test<br>Parameters: wronguser, SuperSecretPassword!, false</td>
+<td></td>
+<td>1</td>
+<td>tests.QAplaygroundLogin_test@1573f9fc</td></tr>
+<tr>
+<td title='tests.DashboardTest.VerifyThemeToggle()'><b>VerifyThemeToggle</b><br>Test class: tests.DashboardTest</td>
+<td></td>
+<td>3</td>
+<td>tests.DashboardTest@5542c4ed</td></tr>
+<tr>
+<td title='tests.AccountTest.Verify_OverdraftBanner()'><b>Verify_OverdraftBanner</b><br>Test class: tests.AccountTest</td>
+<td></td>
+<td>3</td>
+<td>tests.AccountTest@515c6049</td></tr>
+<tr>
+<td title='tests.DashboardTest.Verify_RecentTransactionsDates_inDescOrder()'><b>Verify_RecentTransactionsDates_inDescOrder</b><br>Test class: tests.DashboardTest</td>
+<td></td>
+<td>3</td>
+<td>tests.DashboardTest@5542c4ed</td></tr>
+<tr>
+<td title='tests.QAplaygroundLogin_test.Loginfunctionality()'><b>Loginfunctionality</b><br>Test class: tests.QAplaygroundLogin_test<br>Parameters: practice, wrong123, false</td>
+<td></td>
+<td>1</td>
+<td>tests.QAplaygroundLogin_test@1573f9fc</td></tr>
+<tr>
+<td title='tests.sendMoneyTest.Verify_FrozenAccountBlock()'><b>Verify_FrozenAccountBlock</b><br>Test class: tests.sendMoneyTest</td>
+<td></td>
+<td>2</td>
+<td>tests.sendMoneyTest@6150c3ec</td></tr>
+<tr>
+<td title='tests.DashboardTest.Verify_Dashboard_Load()'><b>Verify_Dashboard_Load</b><br>Test class: tests.DashboardTest<br>Test method: Verify that after a successful login, the Dashboard page loads and displays the welcome message.</td>
+<td></td>
+<td>2</td>
+<td>tests.DashboardTest@5542c4ed</td></tr>
+<tr>
+<td title='tests.AccountTest.Verify_AccountDetails_Display()'><b>Verify_AccountDetails_Display</b><br>Test class: tests.AccountTest</td>
+<td></td>
+<td>4</td>
+<td>tests.AccountTest@515c6049</td></tr>
+<tr>
+<td title='tests.DashboardTest.Verify_url_afterNavaigatingTo_Transfer()'><b>Verify_url_afterNavaigatingTo_Transfer</b><br>Test class: tests.DashboardTest<br>Test method: Verify that the application navigates to the Transfer page and displays the correct URL.</td>
+<td></td>
+<td>7</td>
+<td>tests.DashboardTest@5542c4ed</td></tr>
+<tr>
+<td title='tests.DashboardTest.Verify_RecentTransactions_ListSize()'><b>Verify_RecentTransactions_ListSize</b><br>Test class: tests.DashboardTest</td>
+<td></td>
+<td>2</td>
+<td>tests.DashboardTest@5542c4ed</td></tr>
+</table><p>
+</body>
+</html>

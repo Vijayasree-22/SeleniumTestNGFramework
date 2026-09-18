@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="22" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-09T23:05:19 IST" name="Suite" finished-at="2026-08-09T23:07:35 IST" duration-ms="136201">
+    <groups>
+      <group name="Functional">
+        <method signature="QAplaygroundLogin_test.testQAplaygroundLogin()[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" name="testQAplaygroundLogin" class="tests.QAplaygroundLogin_test"/>
+        <method signature="DashboardTest.Verify_Dashboard_Load()[pri:1, instance:tests.DashboardTest@5542c4ed]" name="Verify_Dashboard_Load" class="tests.DashboardTest"/>
+        <method signature="DashboardTest.Verify_Total_Balance()[pri:2, instance:tests.DashboardTest@5542c4ed]" name="Verify_Total_Balance" class="tests.DashboardTest"/>
+        <method signature="DashboardTest.VerifyThemeToggle()[pri:4, instance:tests.DashboardTest@5542c4ed]" name="VerifyThemeToggle" class="tests.DashboardTest"/>
+      </group> <!-- Functional -->
+      <group name="Negative">
+        <method signature="QAplaygroundLogin_test.Loginfunctionality(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" name="Loginfunctionality" class="tests.QAplaygroundLogin_test"/>
+      </group> <!-- Negative -->
+    </groups>
+    <test started-at="2026-08-09T23:05:19 IST" name="Functional test execution" finished-at="2026-08-09T23:07:35 IST" duration-ms="136201">
+      <class name="tests.AccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AccountTest@515c6049]" started-at="2026-08-09T23:05:19 IST" name="setUp" finished-at="2026-08-09T23:05:23 IST" duration-ms="3907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddAccountDetails()[pri:0, instance:tests.AccountTest@515c6049]" started-at="2026-08-09T23:05:23 IST" name="AddAccountDetails" finished-at="2026-08-09T23:05:28 IST" duration-ms="4749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAccountDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@515c6049]" started-at="2026-08-09T23:05:28 IST" name="tearDown" finished-at="2026-08-09T23:05:28 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AccountTest@515c6049]" started-at="2026-08-09T23:05:28 IST" name="setUp" finished-at="2026-08-09T23:05:29 IST" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyAccountsListLoad()[pri:0, instance:tests.AccountTest@515c6049]" started-at="2026-08-09T23:05:29 IST" name="VerifyAccountsListLoad" finished-at="2026-08-09T23:05:32 IST" duration-ms="3091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAccountsListLoad -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@515c6049]" started-at="2026-08-09T23:05:32 IST" name="tearDown" finished-at="2026-08-09T23:05:33 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AccountTest@515c6049]" started-at="2026-08-09T23:05:33 IST" name="setUp" finished-at="2026-08-09T23:05:34 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_AccountDetails_Display()[pri:0, instance:tests.AccountTest@515c6049]" started-at="2026-08-09T23:05:34 IST" name="Verify_AccountDetails_Display" finished-at="2026-08-09T23:05:39 IST" duration-ms="4718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AccountDetails_Display -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@515c6049]" started-at="2026-08-09T23:05:39 IST" name="tearDown" finished-at="2026-08-09T23:05:39 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AccountTest@515c6049]" started-at="2026-08-09T23:05:39 IST" name="setUp" finished-at="2026-08-09T23:05:40 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_OverdraftBanner()[pri:0, instance:tests.AccountTest@515c6049]" started-at="2026-08-09T23:05:40 IST" name="Verify_OverdraftBanner" finished-at="2026-08-09T23:05:44 IST" duration-ms="3537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_OverdraftBanner -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@515c6049]" started-at="2026-08-09T23:05:44 IST" name="tearDown" finished-at="2026-08-09T23:05:44 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AccountTest -->
+      <class name="tests.sendMoneyTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.sendMoneyTest@6150c3ec]" started-at="2026-08-09T23:06:36 IST" name="setUp" finished-at="2026-08-09T23:06:37 IST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_FrozenAccountBlock()[pri:0, instance:tests.sendMoneyTest@6150c3ec]" started-at="2026-08-09T23:06:37 IST" name="Verify_FrozenAccountBlock" finished-at="2026-08-09T23:06:40 IST" duration-ms="2763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_FrozenAccountBlock -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.sendMoneyTest@6150c3ec]" started-at="2026-08-09T23:06:40 IST" name="tearDown" finished-at="2026-08-09T23:06:40 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.sendMoneyTest@6150c3ec]" started-at="2026-08-09T23:06:40 IST" name="setUp" finished-at="2026-08-09T23:06:41 IST" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addNewPayee_Verify_inPayeeOptions()[pri:0, instance:tests.sendMoneyTest@6150c3ec]" started-at="2026-08-09T23:06:41 IST" name="addNewPayee_Verify_inPayeeOptions" finished-at="2026-08-09T23:06:46 IST" duration-ms="4428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPayee_Verify_inPayeeOptions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.sendMoneyTest@6150c3ec]" started-at="2026-08-09T23:06:46 IST" name="tearDown" finished-at="2026-08-09T23:06:46 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.sendMoneyTest -->
+      <class name="tests.TransferTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:06:46 IST" name="setUp" finished-at="2026-08-09T23:06:47 IST" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_FromToaccounts_Tranferform()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:06:47 IST" name="Verify_FromToaccounts_Tranferform" finished-at="2026-08-09T23:06:56 IST" duration-ms="8230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_FromToaccounts_Tranferform -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:06:56 IST" name="tearDown" finished-at="2026-08-09T23:06:56 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:06:56 IST" name="setUp" finished-at="2026-08-09T23:06:57 IST" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_InsufficientFundsValidation()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:06:57 IST" name="Verify_InsufficientFundsValidation" finished-at="2026-08-09T23:07:03 IST" duration-ms="6039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_InsufficientFundsValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:03 IST" name="tearDown" finished-at="2026-08-09T23:07:04 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:04 IST" name="setUp" finished-at="2026-08-09T23:07:05 IST" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_InternalTransferForm_Load()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:05 IST" name="Verify_InternalTransferForm_Load" finished-at="2026-08-09T23:07:08 IST" duration-ms="3477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_InternalTransferForm_Load -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:08 IST" name="tearDown" finished-at="2026-08-09T23:07:08 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:08 IST" name="setUp" finished-at="2026-08-09T23:07:10 IST" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_ScheduledTransferFlow()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:10 IST" name="Verify_ScheduledTransferFlow" finished-at="2026-08-09T23:07:18 IST" duration-ms="8685" status="FAIL">
+          <exception class="java.time.temporal.UnsupportedTemporalTypeException">
+            <message>
+              <![CDATA[Unsupported field: MinuteOfHour]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: MinuteOfHour
+at java.base/java.time.LocalDate.get0(LocalDate.java:698)
+at java.base/java.time.LocalDate.getLong(LocalDate.java:678)
+at java.base/java.time.format.DateTimePrintContext.getValue(DateTimePrintContext.java:308)
+at java.base/java.time.format.DateTimeFormatterBuilder$NumberPrinterParser.format(DateTimeFormatterBuilder.java:2914)
+at java.base/java.time.format.DateTimeFormatterBuilder$CompositePrinterParser.format(DateTimeFormatterBuilder.java:2529)
+at java.base/java.time.format.DateTimeFormatter.formatTo(DateTimeFormatter.java:1905)
+at java.base/java.time.format.DateTimeFormatter.format(DateTimeFormatter.java:1879)
+at java.base/java.time.LocalDate.format(LocalDate.java:1797)
+at pages.Transfer.enterPastdate_InSchedule(Transfer.java:161)
+at tests.TransferTest.Verify_ScheduledTransferFlow(TransferTest.java:139)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.time.temporal.UnsupportedTemporalTypeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ScheduledTransferFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:18 IST" name="tearDown" finished-at="2026-08-09T23:07:19 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:19 IST" name="setUp" finished-at="2026-08-09T23:07:20 IST" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_SuccessfulInternalTransfer()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:20 IST" name="Verify_SuccessfulInternalTransfer" finished-at="2026-08-09T23:07:26 IST" duration-ms="6504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SuccessfulInternalTransfer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:26 IST" name="tearDown" finished-at="2026-08-09T23:07:27 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:27 IST" name="setUp" finished-at="2026-08-09T23:07:28 IST" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_TransferBalancesUpdate()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:28 IST" name="Verify_TransferBalancesUpdate" finished-at="2026-08-09T23:07:35 IST" duration-ms="6964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_TransferBalancesUpdate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TransferTest@44c03695]" started-at="2026-08-09T23:07:35 IST" name="tearDown" finished-at="2026-08-09T23:07:35 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TransferTest -->
+      <class name="tests.QAplaygroundLogin_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:17 IST" name="setUp" finished-at="2026-08-09T23:06:18 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Loginfunctionality(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:18 IST" name="Loginfunctionality" data-provider="loginData" finished-at="2026-08-09T23:06:22 IST" duration-ms="3304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bank_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginfunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:22 IST" name="tearDown" finished-at="2026-08-09T23:06:22 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:22 IST" name="setUp" finished-at="2026-08-09T23:06:23 IST" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Loginfunctionality(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:23 IST" name="Loginfunctionality" data-provider="loginData" finished-at="2026-08-09T23:06:25 IST" duration-ms="1944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[practice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginfunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:25 IST" name="tearDown" finished-at="2026-08-09T23:06:25 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:25 IST" name="setUp" finished-at="2026-08-09T23:06:26 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Loginfunctionality(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:26 IST" name="Loginfunctionality" data-provider="loginData" finished-at="2026-08-09T23:06:28 IST" duration-ms="1985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wronguser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginfunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:28 IST" name="tearDown" finished-at="2026-08-09T23:06:29 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:29 IST" name="setUp" finished-at="2026-08-09T23:06:30 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Loginfunctionality(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:30 IST" name="Loginfunctionality" data-provider="loginData" finished-at="2026-08-09T23:06:32 IST" duration-ms="2464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wronguser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginfunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:32 IST" name="tearDown" finished-at="2026-08-09T23:06:33 IST" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:33 IST" name="setUp" finished-at="2026-08-09T23:06:34 IST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testQAplaygroundLogin()[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:34 IST" name="testQAplaygroundLogin" finished-at="2026-08-09T23:06:36 IST" duration-ms="1936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQAplaygroundLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.QAplaygroundLogin_test@1573f9fc]" started-at="2026-08-09T23:06:36 IST" name="tearDown" finished-at="2026-08-09T23:06:36 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.QAplaygroundLogin_test -->
+      <class name="tests.DashboardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:05:44 IST" name="setUp" finished-at="2026-08-09T23:05:45 IST" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_RecentTransactionsDates_inDescOrder()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:05:45 IST" name="Verify_RecentTransactionsDates_inDescOrder" finished-at="2026-08-09T23:05:48 IST" duration-ms="3138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_RecentTransactionsDates_inDescOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:05:48 IST" name="tearDown" finished-at="2026-08-09T23:05:49 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:05:49 IST" name="setUp" finished-at="2026-08-09T23:05:50 IST" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_RecentTransactions_ListSize()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:05:50 IST" name="Verify_RecentTransactions_ListSize" finished-at="2026-08-09T23:05:53 IST" duration-ms="2933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_RecentTransactions_ListSize -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:05:53 IST" name="tearDown" finished-at="2026-08-09T23:05:53 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:05:53 IST" name="setUp" finished-at="2026-08-09T23:05:54 IST" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_url_afterNavaigatingTo_Transfer()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:05:54 IST" name="Verify_url_afterNavaigatingTo_Transfer" description="Verify that the application navigates to the Transfer page and displays the correct URL." finished-at="2026-08-09T23:06:02 IST" duration-ms="7980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_url_afterNavaigatingTo_Transfer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:06:02 IST" name="tearDown" finished-at="2026-08-09T23:06:03 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:06:03 IST" name="setUp" finished-at="2026-08-09T23:06:04 IST" duration-ms="1190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_Dashboard_Load()[pri:1, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:06:04 IST" name="Verify_Dashboard_Load" description="Verify that after a successful login, the Dashboard page loads and displays the welcome message." finished-at="2026-08-09T23:06:07 IST" duration-ms="2995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Dashboard_Load -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:06:07 IST" name="tearDown" finished-at="2026-08-09T23:06:07 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:06:07 IST" name="setUp" finished-at="2026-08-09T23:06:08 IST" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_Total_Balance()[pri:2, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:06:08 IST" name="Verify_Total_Balance" description="Verify dashboard total balance matches the sum of account balances." finished-at="2026-08-09T23:06:12 IST" depends-on-methods="tests.DashboardTest.Verify_Dashboard_Load" duration-ms="3520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Total_Balance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:06:12 IST" name="tearDown" finished-at="2026-08-09T23:06:12 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:06:12 IST" name="setUp" finished-at="2026-08-09T23:06:13 IST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyThemeToggle()[pri:4, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:06:13 IST" name="VerifyThemeToggle" finished-at="2026-08-09T23:06:17 IST" duration-ms="3333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyThemeToggle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@5542c4ed]" started-at="2026-08-09T23:06:17 IST" name="tearDown" finished-at="2026-08-09T23:06:17 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DashboardTest -->
+    </test> <!-- Functional test execution -->
+  </suite> <!-- Suite -->
+</testng-results>
